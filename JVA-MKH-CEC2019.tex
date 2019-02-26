@@ -1,5 +1,5 @@
-\title{A survey of Christian perspectives \\
-		on sustainability and related topics}
+\title{\textbf{A survey of Christian perspectives \\
+		on sustainability and related topics}}
 \author{
 		% Authors must be italicized.
         \emph{Jeremy Van Antwerp}, \emph{Matthew Kuperus Heun}%
@@ -14,9 +14,19 @@ Grand Rapids, MI, 49546, USA}
 % CEC papers should be set in Times New Roman.
 % https://tex.stackexchange.com/questions/153168/how-to-set-document-font-to-times-new-roman-by-command
 % suggests the following.
-\usepackage{mathptmx}
+\usepackage{mathptmx} % For Times New Roman font (or a close approximation thereof).
+\usepackage[margin=1in]{geometry} % For 1-inch margins all around.
+\usepackage[document]{ragged2e} % For left justification.
+\usepackage{parskip} % For double-spacing between paragraphs.
+\usepackage{nopageno} % To eliminate page numbers.
+% For MLA bibliography. See https://www.ctan.org/pkg/biblatex-mla?lang=en for details.
+\usepackage[american]{babel} 
+\usepackage{csquotes} 
+\usepackage[style=mla-new]{biblatex}
+\addbibresource{JVAMKH.bib}
 
 \begin{document}
+	
 \maketitle
 
 \begin{abstract}
@@ -51,14 +61,22 @@ and focus on piloting classroom discussion questions related to the theology of 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 Introduction goes here. 
+More information. 
+The next sentence. 
+Have I wrapped to the next line yet?
+
+Paragraphs must be separated by a blank line.
+This paragraph has a citation~\autocite{bogus}.
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Next section}
 \label{sec:next_sect}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+Contains more text.
 
-\bibliographystyle{abbrv}
-\bibliography{main}
+\printbibliography
+
 
 \end{document}

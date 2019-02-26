@@ -25,9 +25,16 @@ Grand Rapids, MI, 49546, USA}
 \usepackage[style=mla-new]{biblatex}
 \addbibresource{JVAMKH.bib}
 \usepackage{titlesec} % To change formats of section titles, etc.
-\titleformat*{\section}{\LARGE\bfseries}
-% \titleformat*{\section}{\LARGE\bfseries\sffamily}
 \titleformat*{\section}{\normalsize}
+\titleformat*{\subsection}{\normalsize}
+\titleformat*{\subsubsection}{\normalsize}
+\usepackage{abstract} % Set the characteristics of the abstract
+\setlength{\absleftindent}{0in}
+\setlength{\absrightindent}{0in}
+\setlength{\parindent}{0in} % Do not indent the 1st line of a paragraph.
+\setlength{\parskip}{3mm}   % Add space between paragraphs.
+\renewcommand{\abstractnamefont}{\normalfont\normalsize}
+\renewcommand{\abstracttextfont}{\normalfont\normalsize}
 
 
 \begin{document}
@@ -35,6 +42,7 @@ Grand Rapids, MI, 49546, USA}
 \maketitle
 
 \begin{abstract}
+\noindent
 **** This is the abstract that I have on file. ---MKH ****
 This paper presents a survey of Christian perspectives, 
 from ancient to modern, 
@@ -72,7 +80,7 @@ The next sentence.
 Have I wrapped to the next line yet?
 
 Paragraphs must be separated by a blank line.
-This paragraph has a citation~\autocite{bogus}.
+This paragraph has a citation~\autocite[42]{bogus}.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -81,6 +89,12 @@ This paragraph has a citation~\autocite{bogus}.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 Contains more text.
+
+
+%++++++++++++++++++++++++++++++
+\subsection{Subsection}
+\label{sec:subsection_label}
+%++++++++++++++++++++++++++++++
 
 
 \printbibliography

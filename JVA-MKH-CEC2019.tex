@@ -14,27 +14,27 @@ Grand Rapids, MI, 49546, USA}
 % CEC papers should be set in Times New Roman.
 % https://tex.stackexchange.com/questions/153168/how-to-set-document-font-to-times-new-roman-by-command
 % suggests the following.
-\usepackage{mathptmx} % For Times New Roman font (or a close approximation thereof).
+\usepackage{mathptmx}             % For Times New Roman font (or a close approximation thereof).
 \usepackage[margin=1in]{geometry} % For 1-inch margins all around.
-\usepackage[document]{ragged2e} % For left justification.
-\usepackage{parskip} % For double-spacing between paragraphs.
-\usepackage{nopageno} % To eliminate page numbers.
+\usepackage[document]{ragged2e}   % For left justification.
+\usepackage{parskip}              % For double-spacing between paragraphs.
+\usepackage{nopageno}             % To eliminate page numbers.
 % For MLA bibliography. See https://www.ctan.org/pkg/biblatex-mla?lang=en for details.
 \usepackage[american]{babel} 
 \usepackage{csquotes} 
 \usepackage[style=mla-new]{biblatex}
 \addbibresource{JVAMKH.bib}
-\usepackage{titlesec} % To change formats of section titles, etc.
+\usepackage{titlesec}             % To change formats of section titles, etc.
 \titleformat*{\section}{\normalsize}
 \titleformat*{\subsection}{\normalsize}
 \titleformat*{\subsubsection}{\normalsize}
-\usepackage{abstract} % Set the characteristics of the abstract
-\setlength{\absleftindent}{0in}
-\setlength{\absrightindent}{0in}
-\setlength{\parindent}{0in} % Do not indent the 1st line of a paragraph.
-\setlength{\parskip}{3mm}   % Add space between paragraphs.
-\renewcommand{\abstractnamefont}{\normalfont\normalsize}
-\renewcommand{\abstracttextfont}{\normalfont\normalsize}
+\usepackage{abstract}             % Set characteristics of the abstract
+\setlength{\absleftindent}{0in}   % Do not indent left side
+\setlength{\absrightindent}{0in}  % Do not indent right side
+\setlength{\parindent}{0in}       % Do not indent the 1st line of paragraphs.
+\setlength{\parskip}{12pt}        % Instead, add space between paragraphs.
+\renewcommand{\abstractnamefont}{\normalfont\normalsize} % Unbold and regular size
+\renewcommand{\abstracttextfont}{\normalfont\normalsize} % Unbold and regular size
 
 
 \begin{document}

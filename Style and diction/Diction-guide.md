@@ -2,3 +2,7 @@
 
 * When referring to everything: "the universe"
 * When referring to everything except humans: "the nonhuman creation"
+
+# Punctuation
+
+* Oxford comma? Yes.

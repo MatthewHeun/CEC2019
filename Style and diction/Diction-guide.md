@@ -6,3 +6,8 @@
 # Punctuation
 
 * Oxford comma? Yes.
+
+# Scriptural references
+
+* Use 2- or 3-letter abbreviations for books of the bible.
+* 1 or I Tim?  Jeremy to check.

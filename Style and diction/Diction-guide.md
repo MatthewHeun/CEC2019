@@ -10,4 +10,4 @@
 # Scriptural references
 
 * Use 2- or 3-letter abbreviations for books of the bible.
-* Numeral
+* 1 or I Tim?  Jeremy to check.

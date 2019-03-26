@@ -7,6 +7,7 @@
 # Punctuation
 
 * Oxford comma? Yes.
+* eco-justice or ecojustice?  Prefer "eco-justice".
 
 # Scriptural references
 
